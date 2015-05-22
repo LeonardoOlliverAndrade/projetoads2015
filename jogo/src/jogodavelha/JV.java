@@ -24,4 +24,16 @@ public class JV {
 	        return  null;
 			
     }
-}  
+ 
+    public boolean valido(String p){
+        for (int li =0; li<3; li++){
+            for (int co =0; co<3; co++)
+                if (m[li][co].equals(p))
+                
+                    return true;
+                
+        }
+       return false;
+        
+    }
+}
